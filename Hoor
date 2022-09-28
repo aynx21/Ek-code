@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std ;
+
+int main() {
+    
+    int a, b, c , Numbers, Password ;
+    bool name = true ;
+    
+    cout<< "Please enter the password______" ;
+    cin>>Password;
+    
+if (Password==1234)
+    {
+        cout<<"You are granted permisson** \n " ;
+          cout<<"Enter the first Number____ " ;
+    cin>>a ;
+    cout<<"The second number please:______ " ;
+    cin>>b ;
+    cout<<"The third number: _________ " ;
+    cin>>c ;
+    
+    
+    a= a++ ;
+    b= b++ ;
+    c= c-- ;
+    
+    cout <<a<<"\n" ;
+    cout <<b<<"\n";
+    cout <<c<<"\n" ;
+
+    
+    } 
+    
+
+
+else
+    { 
+        cout<<" *denied* \n" ;
+    }
+    
+    
+    
+    
+    
+    
+}
